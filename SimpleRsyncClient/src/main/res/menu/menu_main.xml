@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.sb.simplersyncclient.MainActivity">
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="1"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/action_add"
+        android:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_generate_keys"
+        android:orderInCategory="91"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="@string/action_generate_keys"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_copy_bins"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/action_copy_bins"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/action_help"
+        android:showAsAction="ifRoom"/>
+</menu>
